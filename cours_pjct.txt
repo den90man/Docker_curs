@@ -1,0 +1,846 @@
+#2
+sudo apt update
+[sudo] пароль для qww: 
+Попробуйте ещё раз.
+[sudo] пароль для qww: 
+Пол:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Пол:2 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [789 kB]
+Сущ:3 http://ru.archive.ubuntu.com/ubuntu focal InRelease                     
+Пол:4 http://ru.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]    
+Пол:5 http://security.ubuntu.com/ubuntu focal-security/main i386 Packages [267 kB]
+Пол:6 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [155 kB]
+Пол:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [27,6 kB]
+Пол:8 http://security.ubuntu.com/ubuntu focal-security/main DEP-11 64x64 Icons [21,6 kB]
+Пол:9 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [8 304 B]
+Пол:10 http://security.ubuntu.com/ubuntu focal-security/restricted i386 Packages [16,5 kB]
+Пол:11 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [327 kB]
+Пол:12 http://ru.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB] 
+Пол:13 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [47,4 kB]
+Пол:14 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [428 B]
+Пол:15 http://security.ubuntu.com/ubuntu focal-security/universe i386 Packages [505 kB]
+Пол:16 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [633 kB]
+Пол:17 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [97,5 kB]
+Пол:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [60,8 kB]
+Пол:19 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [11,9 kB]
+Пол:20 http://security.ubuntu.com/ubuntu focal-security/multiverse i386 Packages [7 912 B]
+Пол:21 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [25,4 kB]
+Пол:22 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [4 952 B]
+Пол:23 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [2 468 B]
+Пол:24 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [600 B]
+Пол:25 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1 126 kB]
+Пол:26 http://ru.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [511 kB]
+Пол:27 http://ru.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [245 kB]
+Пол:28 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [283 kB]
+Пол:29 http://ru.archive.ubuntu.com/ubuntu focal-updates/main DEP-11 64x64 Icons [95,0 kB]
+Пол:30 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [13,8 kB]
+Пол:31 http://ru.archive.ubuntu.com/ubuntu focal-updates/restricted i386 Packages [17,8 kB]
+Пол:32 http://ru.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [364 kB]
+Пол:33 http://ru.archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [52,7 kB]
+Пол:34 http://ru.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [428 B]
+Пол:35 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [626 kB]
+Пол:36 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [843 kB]
+Пол:37 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [339 kB]
+Пол:38 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe DEP-11 48x48 Icons [212 kB]
+Пол:39 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe DEP-11 64x64 Icons [374 kB]
+Пол:40 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [18,4 kB]
+Пол:41 http://ru.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [27,4 kB]
+Пол:42 http://ru.archive.ubuntu.com/ubuntu focal-updates/multiverse i386 Packages [8 912 B]
+Пол:43 http://ru.archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [6 780 B]
+Пол:44 http://ru.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [2 468 B]
+Пол:45 http://ru.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [676 B]
+Пол:46 http://ru.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [10,3 kB]
+Получено 8 513 kB за 3с (2 512 kB/s)                                          
+Чтение списков пакетов… Готово
+Построение дерева зависимостей       
+Чтение информации о состоянии… Готово
+Может быть обновлён 171 пакет. Запустите «apt list --upgradable» для показа.
+qww@qww-VirtualBox:~$ sudo apt install docker -y
+Чтение списков пакетов… Готово
+Построение дерева зависимостей       
+Чтение информации о состоянии… Готово
+Следующие пакеты устанавливались автоматически и больше не требуются:
+  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream nginx-common nginx-core
+Для их удаления используйте «sudo apt autoremove».
+Будут установлены следующие дополнительные пакеты:
+  wmdocker
+Следующие НОВЫЕ пакеты будут установлены:
+  docker wmdocker
+Обновлено 0 пакетов, установлено 2 новых пакетов, для удаления отмечено 0 пакетов, и 171 пакетов не обновлено.
+Необходимо скачать 14,3 kB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 58,4 kB.
+Пол:1 http://ru.archive.ubuntu.com/ubuntu focal/universe amd64 wmdocker amd64 1.5-2 [13,0 kB]
+Пол:2 http://ru.archive.ubuntu.com/ubuntu focal/universe amd64 docker all 1.5-2 [1 316 B]
+Получено 14,3 kB за 0с (121 kB/s)
+Выбор ранее не выбранного пакета wmdocker.
+(Чтение базы данных … на данный момент установлено 192454 файла и каталога.)
+Подготовка к распаковке …/wmdocker_1.5-2_amd64.deb …
+Распаковывается wmdocker (1.5-2) …
+Выбор ранее не выбранного пакета docker.
+Подготовка к распаковке …/archives/docker_1.5-2_all.deb …
+Распаковывается docker (1.5-2) …
+Настраивается пакет wmdocker (1.5-2) …
+Настраивается пакет docker (1.5-2) …
+Обрабатываются триггеры для man-db (2.9.1-1) …
+qww@qww-VirtualBox:~$ sudo apt install docker.io -y
+Чтение списков пакетов… Готово
+Построение дерева зависимостей       
+Чтение информации о состоянии… Готово
+Следующие пакеты устанавливались автоматически и больше не требуются:
+  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream nginx-common nginx-core
+Для их удаления используйте «sudo apt autoremove».
+Будут установлены следующие дополнительные пакеты:
+  bridge-utils containerd git git-man liberror-perl pigz runc ubuntu-fan
+Предлагаемые пакеты:
+  ifupdown aufs-tools btrfs-progs cgroupfs-mount | cgroup-lite debootstrap
+  docker-doc rinse zfs-fuse | zfsutils git-daemon-run | git-daemon-sysvinit
+  git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+Следующие НОВЫЕ пакеты будут установлены:
+  bridge-utils containerd docker.io git git-man liberror-perl pigz runc
+  ubuntu-fan
+Обновлено 0 пакетов, установлено 9 новых пакетов, для удаления отмечено 0 пакетов, и 171 пакетов не обновлено.
+Необходимо скачать 79,5 MB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 397 MB.
+Пол:1 http://ru.archive.ubuntu.com/ubuntu focal/universe amd64 pigz amd64 2.4-1 [57,4 kB]
+Пол:2 http://ru.archive.ubuntu.com/ubuntu focal/main amd64 bridge-utils amd64 1.6-2ubuntu1 [30,5 kB]
+Пол:3 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 runc amd64 1.0.0~rc95-0ubuntu1~20.04.1 [4 087 kB]
+Пол:4 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 containerd amd64 1.5.2-0ubuntu1~20.04.2 [32,9 MB]
+Пол:5 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe amd64 docker.io amd64 20.10.2-0ubuntu1~20.04.2 [36,9 MB]
+Пол:6 http://ru.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26,5 kB]
+Пол:7 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.1 [884 kB]
+Пол:8 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.1 [4 557 kB]
+Пол:9 http://ru.archive.ubuntu.com/ubuntu focal/main amd64 ubuntu-fan all 0.12.13 [34,5 kB]
+Получено 79,5 MB за 19с (4 080 kB/s)                                          
+Предварительная настройка пакетов …
+Выбор ранее не выбранного пакета pigz.
+(Чтение базы данных … на данный момент установлено 192464 файла и каталога.)
+Подготовка к распаковке …/0-pigz_2.4-1_amd64.deb …
+Распаковывается pigz (2.4-1) …
+Выбор ранее не выбранного пакета bridge-utils.
+Подготовка к распаковке …/1-bridge-utils_1.6-2ubuntu1_amd64.deb …
+Распаковывается bridge-utils (1.6-2ubuntu1) …
+Выбор ранее не выбранного пакета runc.
+Подготовка к распаковке …/2-runc_1.0.0~rc95-0ubuntu1~20.04.1_amd64.deb …
+Распаковывается runc (1.0.0~rc95-0ubuntu1~20.04.1) …
+Выбор ранее не выбранного пакета containerd.
+Подготовка к распаковке …/3-containerd_1.5.2-0ubuntu1~20.04.2_amd64.deb …
+Распаковывается containerd (1.5.2-0ubuntu1~20.04.2) …
+Выбор ранее не выбранного пакета docker.io.
+Подготовка к распаковке …/4-docker.io_20.10.2-0ubuntu1~20.04.2_amd64.deb …
+Распаковывается docker.io (20.10.2-0ubuntu1~20.04.2) …
+Выбор ранее не выбранного пакета liberror-perl.
+Подготовка к распаковке …/5-liberror-perl_0.17029-1_all.deb …
+Распаковывается liberror-perl (0.17029-1) …
+Выбор ранее не выбранного пакета git-man.
+Подготовка к распаковке …/6-git-man_1%3a2.25.1-1ubuntu3.1_all.deb …
+Распаковывается git-man (1:2.25.1-1ubuntu3.1) …
+Выбор ранее не выбранного пакета git.
+Подготовка к распаковке …/7-git_1%3a2.25.1-1ubuntu3.1_amd64.deb …
+Распаковывается git (1:2.25.1-1ubuntu3.1) …
+Выбор ранее не выбранного пакета ubuntu-fan.
+Подготовка к распаковке …/8-ubuntu-fan_0.12.13_all.deb …
+Распаковывается ubuntu-fan (0.12.13) …
+Настраивается пакет runc (1.0.0~rc95-0ubuntu1~20.04.1) …
+Настраивается пакет liberror-perl (0.17029-1) …
+Настраивается пакет bridge-utils (1.6-2ubuntu1) …
+Настраивается пакет pigz (2.4-1) …
+Настраивается пакет git-man (1:2.25.1-1ubuntu3.1) …
+Настраивается пакет containerd (1.5.2-0ubuntu1~20.04.2) …
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service 
+→ /lib/systemd/system/containerd.service.
+Настраивается пакет ubuntu-fan (0.12.13) …
+Created symlink /etc/systemd/system/multi-user.target.wants/ubuntu-fan.service 
+→ /lib/systemd/system/ubuntu-fan.service.
+Настраивается пакет docker.io (20.10.2-0ubuntu1~20.04.2) …
+Добавляется группа «docker» (GID 133) ...
+Готово.
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /l
+ib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/s
+ystemd/system/docker.socket.
+Настраивается пакет git (1:2.25.1-1ubuntu3.1) …
+Обрабатываются триггеры для man-db (2.9.1-1) …
+Обрабатываются триггеры для systemd (245.4-4ubuntu3.4) …
+qww@qww-VirtualBox:~$ docker ps
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json: dial unix /var/run/docker.sock: connect: permission denied
+qww@qww-VirtualBox:~$ docker ps
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json: dial unix /var/run/docker.sock: connect: permission denied
+qww@qww-VirtualBox:~$ sudo docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+qww@qww-VirtualBox:~$ sudo docker run hello-world
+[sudo] пароль для qww: 
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+b8dfde127a29: Pull complete 
+Digest: sha256:df5f5184104426b65967e016ff2ac0bfcd44ad7899ca3bbcf8e44e4461491a9e
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+qww@qww-VirtualBox:~$ doker ps
+
+Команда «doker» не найдена. Возможно, вы имели в виду:
+
+  command 'docker' from snap docker (19.03.13)
+  command 'docker' from deb docker.io (20.10.2-0ubuntu1~20.04.2)
+
+See 'snap info <snapname>' for additional versions.
+
+qww@qww-VirtualBox:~$ docker ps
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json: dial unix /var/run/docker.sock: connect: permission denied
+qww@qww-VirtualBox:~$ sudo docker ps
+[sudo] пароль для qww: 
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+qww@qww-VirtualBox:~$ sudo docker ps -a
+CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+a292e2e93656   hello-world   "/hello"   26 minutes ago   Exited (0) 26 minutes ago             elated_faraday
+qww@qww-VirtualBox:~$ apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
+E: Не удалось открыть файл блокировки /var/lib/dpkg/lock-frontend - open (13: Отказано в доступе)
+E: Невозможно получить блокировку внешнего интерфейса dpkg (/var/lib/dpkg/lock-frontend); у вас есть права суперпользователя?
+qww@qww-VirtualBox:~$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
+Чтение списков пакетов… Готово
+Построение дерева зависимостей       
+Чтение информации о состоянии… Готово
+Уже установлен пакет ca-certificates самой новой версии (20210119~20.04.1).
+ca-certificates помечен как установленный вручную.
+Следующие пакеты устанавливались автоматически и больше не требуются:
+  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream nginx-common nginx-core
+Для их удаления используйте «sudo apt autoremove».
+Будут установлены следующие дополнительные пакеты:
+  dirmngr gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client
+  gpg-wks-server gpgconf gpgsm gpgv libcurl4 python3-software-properties
+  software-properties-gtk
+Предлагаемые пакеты:
+  tor parcimonie xloadimage scdaemon
+Следующие НОВЫЕ пакеты будут установлены:
+  apt-transport-https gnupg-agent
+Следующие пакеты будут обновлены:
+  curl dirmngr gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client
+  gpg-wks-server gpgconf gpgsm gpgv libcurl4 python3-software-properties
+  software-properties-common software-properties-gtk
+Обновлено 16 пакетов, установлено 2 новых пакетов, для удаления отмечено 0 пакетов, и 155 пакетов не обновлено.
+Необходимо скачать 406 kB/3 068 kB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 208 kB.
+Пол:1 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe amd64 apt-transport-https all 2.0.6 [4 680 B]
+Пол:2 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 curl amd64 7.68.0-1ubuntu2.6 [161 kB]
+Пол:3 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl4 amd64 7.68.0-1ubuntu2.6 [234 kB]
+Пол:4 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe amd64 gnupg-agent all 2.2.19-3ubuntu2.1 [5 232 B]
+Получено 406 kB за 0с (977 kB/s)    
+(Чтение базы данных … на данный момент установлено 193718 файлов и каталогов.)
+Подготовка к распаковке …/00-gpg-wks-client_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gpg-wks-client (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/01-dirmngr_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается dirmngr (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/02-gnupg-utils_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gnupg-utils (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/03-gpg-wks-server_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gpg-wks-server (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/04-gpg-agent_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gpg-agent (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/05-gpg_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gpg (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/06-gpgconf_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gpgconf (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/07-gnupg-l10n_2.2.19-3ubuntu2.1_all.deb …
+Распаковывается gnupg-l10n (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/08-gnupg_2.2.19-3ubuntu2.1_all.deb …
+Распаковывается gnupg (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/09-gpgsm_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gpgsm (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Подготовка к распаковке …/10-gpgv_2.2.19-3ubuntu2.1_amd64.deb …
+Распаковывается gpgv (2.2.19-3ubuntu2.1) на замену (2.2.19-3ubuntu2) …
+Настраивается пакет gpgv (2.2.19-3ubuntu2.1) …
+Выбор ранее не выбранного пакета apt-transport-https.
+(Чтение базы данных … на данный момент установлено 193718 файлов и каталогов.)
+Подготовка к распаковке …/0-apt-transport-https_2.0.6_all.deb …
+Распаковывается apt-transport-https (2.0.6) …
+Подготовка к распаковке …/1-curl_7.68.0-1ubuntu2.6_amd64.deb …
+Распаковывается curl (7.68.0-1ubuntu2.6) на замену (7.68.0-1ubuntu2.5) …
+Подготовка к распаковке …/2-libcurl4_7.68.0-1ubuntu2.6_amd64.deb …
+Распаковывается libcurl4:amd64 (7.68.0-1ubuntu2.6) на замену (7.68.0-1ubuntu2.5) …
+Выбор ранее не выбранного пакета gnupg-agent.
+Подготовка к распаковке …/3-gnupg-agent_2.2.19-3ubuntu2.1_all.deb …
+Распаковывается gnupg-agent (2.2.19-3ubuntu2.1) …
+Подготовка к распаковке …/4-software-properties-common_0.98.9.5_all.deb …
+Распаковывается software-properties-common (0.98.9.5) на замену (0.98.9.3) …
+Подготовка к распаковке …/5-software-properties-gtk_0.98.9.5_all.deb …
+Распаковывается software-properties-gtk (0.98.9.5) на замену (0.98.9.3) …
+Подготовка к распаковке …/6-python3-software-properties_0.98.9.5_all.deb …
+Распаковывается python3-software-properties (0.98.9.5) на замену (0.98.9.3) …
+Настраивается пакет apt-transport-https (2.0.6) …
+Настраивается пакет gnupg-l10n (2.2.19-3ubuntu2.1) …
+Настраивается пакет gpgconf (2.2.19-3ubuntu2.1) …
+Настраивается пакет libcurl4:amd64 (7.68.0-1ubuntu2.6) …
+Настраивается пакет curl (7.68.0-1ubuntu2.6) …
+Настраивается пакет gpg (2.2.19-3ubuntu2.1) …
+Настраивается пакет gnupg-utils (2.2.19-3ubuntu2.1) …
+Настраивается пакет gpg-agent (2.2.19-3ubuntu2.1) …
+Настраивается пакет gpgsm (2.2.19-3ubuntu2.1) …
+Настраивается пакет dirmngr (2.2.19-3ubuntu2.1) …
+Настраивается пакет python3-software-properties (0.98.9.5) …
+Настраивается пакет gnupg-agent (2.2.19-3ubuntu2.1) …
+Настраивается пакет gpg-wks-server (2.2.19-3ubuntu2.1) …
+Настраивается пакет gpg-wks-client (2.2.19-3ubuntu2.1) …
+Настраивается пакет software-properties-common (0.98.9.5) …
+Настраивается пакет gnupg (2.2.19-3ubuntu2.1) …
+Настраивается пакет software-properties-gtk (0.98.9.5) …
+Обрабатываются триггеры для dbus (1.12.16-2ubuntu2.1) …
+Обрабатываются триггеры для shared-mime-info (1.15-1) …
+Обрабатываются триггеры для install-info (6.7.0.dfsg.2-5) …
+Обрабатываются триггеры для desktop-file-utils (0.24-1ubuntu3) …
+Обрабатываются триггеры для mime-support (3.64ubuntu1) …
+Обрабатываются триггеры для hicolor-icon-theme (0.17-2) …
+Обрабатываются триггеры для gnome-menus (3.36.0-1ubuntu1) …
+Обрабатываются триггеры для libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.3) …
+Обрабатываются триггеры для libc-bin (2.31-0ubuntu9.2) …
+Обрабатываются триггеры для man-db (2.9.1-1) …
+qww@qww-VirtualBox:~$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+Сущ:1 http://ru.archive.ubuntu.com/ubuntu focal InRelease
+Пол:2 http://ru.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]    
+Пол:3 https://download.docker.com/linux/ubuntu focal InRelease [52,1 kB]      
+Пол:4 http://ru.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]  
+Пол:5 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]     
+Пол:6 http://ru.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [13,8 kB]
+Пол:7 http://ru.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [18,4 kB]
+Ошб:3 https://download.docker.com/linux/ubuntu focal InRelease                
+  Следующие подписи не могут быть проверены, так как недоступен открытый ключ: NO_PUBKEY 7EA0A9C3F273FCD8
+Пол:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [27,6 kB]
+Пол:9 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [60,8 kB]
+Пол:10 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [2 464 B]
+Чтение списков пакетов… Готово            
+W: Ошибка GPG: https://download.docker.com/linux/ubuntu focal InRelease: Следующие подписи не могут быть проверены, так как недоступен открытый ключ: NO_PUBKEY 7EA0A9C3F273FCD8
+E: Репозиторий «https://download.docker.com/linux/ubuntu focal InRelease» не подписан.
+N: Обновление из этого репозитория нельзя выполнить безопасным способом, поэтому по умолчанию он отключён.
+N: Информацию о создании репозитория и настройках пользователя смотрите в справочной странице apt-secure(8).
+#3
+
+############
+qww@qww-VirtualBox:~$ sudo docker run -i -t ubuntu /bin/bash
+[sudo] пароль для qww: 
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+a31c7b29f4ad: Pull complete 
+Digest: sha256:b3e2e47d016c08b3396b5ebe06ab0b711c34e7f37b98c9d37abe794b71cea0a2
+Status: Downloaded newer image for ubuntu:latest
+root@323cb5650b5f:/# 
+root@323cb5650b5f:/# docker ps
+bash: docker: command not found
+root@323cb5650b5f:/# sudo  docker ps
+bash: sudo: command not found
+root@323cb5650b5f:/# exit
+exit
+###############
+ww@qww-VirtualBox:~$ docker ps
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json: dial unix /var/run/docker.sock: connect: permission denied
+qww@qww-VirtualBox:~$ sudo docker ps
+[sudo] пароль для qww: 
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS          PORTS     NAMES
+40e2a7ce3f2e   ubuntu    "bash"    16 minutes ago   Up 16 minutes             zen_hermann
+qww@qww-VirtualBox:~$ sudo docker search ubuntu
+NAME                                                      DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+ubuntu                                                    Ubuntu is a Debian-based Linux operating sys…   12533     [OK]       
+dorowu/ubuntu-desktop-lxde-vnc                            Docker image to provide HTML5 VNC interface …   552                  [OK]
+websphere-liberty                                         WebSphere Liberty multi-architecture images …   276       [OK]       
+rastasheep/ubuntu-sshd                                    Dockerized SSH service, built on top of offi…   254                  [OK]
+consol/ubuntu-xfce-vnc                                    Ubuntu container with "headless" VNC session…   241                  [OK]
+ubuntu-upstart                                            Upstart is an event-based replacement for th…   113       [OK]       
+1and1internet/ubuntu-16-nginx-php-phpmyadmin-mysql-5      ubuntu-16-nginx-php-phpmyadmin-mysql-5          50                   [OK]
+ubuntu-debootstrap                                        debootstrap --variant=minbase --components=m…   44        [OK]       
+i386/ubuntu                                               Ubuntu is a Debian-based Linux operating sys…   25                   
+1and1internet/ubuntu-16-apache-php-5.6                    ubuntu-16-apache-php-5.6                        14                   [OK]
+ppc64le/ubuntu                                            Ubuntu is a Debian-based Linux operating sys…   13                   
+1and1internet/ubuntu-16-apache-php-7.0                    ubuntu-16-apache-php-7.0                        13                   [OK]
+1and1internet/ubuntu-16-nginx-php-phpmyadmin-mariadb-10   ubuntu-16-nginx-php-phpmyadmin-mariadb-10       11                   [OK]
+1and1internet/ubuntu-16-nginx-php-5.6-wordpress-4         ubuntu-16-nginx-php-5.6-wordpress-4             9                    [OK]
+1and1internet/ubuntu-16-nginx-php-5.6                     ubuntu-16-nginx-php-5.6                         8                    [OK]
+darksheer/ubuntu                                          Base Ubuntu Image -- Updated hourly             5                    [OK]
+1and1internet/ubuntu-16-nginx-php-7.0                     ubuntu-16-nginx-php-7.0                         4                    [OK]
+owncloud/ubuntu                                           ownCloud Ubuntu base image                      3                    
+1and1internet/ubuntu-16-nginx-php-7.1-wordpress-4         ubuntu-16-nginx-php-7.1-wordpress-4             3                    [OK]
+1and1internet/ubuntu-16-apache                            ubuntu-16-apache                                3                    [OK]
+1and1internet/ubuntu-16-apache-php-5.6-zend-2             ubuntu-16-apache-php-5.6-zend-2                 2                    [OK]
+1and1internet/ubuntu-16-nginx-php-phpmyadmin              ubuntu-16-nginx-php-phpmyadmin                  2                    [OK]
+1and1internet/ubuntu-16-php-7.1                           ubuntu-16-php-7.1                               1                    [OK]
+1and1internet/ubuntu-16-apache-php-5.6-drupal-8           ubuntu-16-apache-php-5.6-drupal-8               1                    [OK]
+smartentry/ubuntu                                         ubuntu with smartentry                          1                    [OK]
+
+qww@qww-VirtualBox:~$ docker images
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/json: dial unix /var/run/docker.sock: connect: permission denied
+qww@qww-VirtualBox:~$ sudo docker images
+REPOSITORY    TAG       IMAGE ID       CREATED        SIZE
+ubuntu        latest    c29284518f49   9 days ago     72.8MB
+hello-world   latest    d1165f221234   4 months ago   13.3kB
+qww@qww-VirtualBox:~$ sudo docker images
+REPOSITORY    TAG       IMAGE ID       CREATED        SIZE
+ubuntu        latest    c29284518f49   9 days ago     72.8MB
+hello-world   latest    d1165f221234   4 months ago   13.3kB
+qww@qww-VirtualBox:~$ sudo docker run -it ubuntu
+root@40e2a7ce3f2e:/# apt update
+Get:1 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]     
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]       
+Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [784 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [1275 kB]    
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [474 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [37.2 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1417 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1055 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [6303 B]
+Get:15 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [2668 B]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [985 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [428 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [34.7 kB]
+Fetched 18.6 MB in 4s (4404 kB/s)                          
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+2 packages can be upgraded. Run 'apt list --upgradable' to see them.
+root@40e2a7ce3f2e:/# apt install nodejs
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates libc-ares2 libicu66 libnghttp2-14 libnode64 libssl1.1
+  libuv1 nodejs-doc openssl tzdata
+Suggested packages:
+  npm
+The following NEW packages will be installed:
+  ca-certificates libc-ares2 libicu66 libnghttp2-14 libnode64 libssl1.1
+  libuv1 nodejs nodejs-doc openssl tzdata
+0 upgraded, 11 newly installed, 0 to remove and 2 not upgraded.
+Need to get 17.9 MB of archives.
+After this operation, 74.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.4 [1319 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.4 [620 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ca-certificates all 20210119~20.04.1 [146 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 tzdata all 2021a-0ubuntu0.20.04 [295 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libicu66 amd64 66.1-2ubuntu2 [8520 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libuv1 amd64 1.34.2-1ubuntu1.3 [80.8 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 libnghttp2-14 amd64 1.40.0-1build1 [78.7 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 libc-ares2 amd64 1.15.0-1build1 [37.8 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/universe amd64 libnode64 amd64 10.19.0~dfsg-3ubuntu1 [5765 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal/universe amd64 nodejs-doc all 10.19.0~dfsg-3ubuntu1 [942 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal/universe amd64 nodejs amd64 10.19.0~dfsg-3ubuntu1 [61.1 kB]
+Fetched 17.9 MB in 2s (7979 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libssl1.1:amd64.
+(Reading database ... 4127 files and directories currently installed.)
+Preparing to unpack .../00-libssl1.1_1.1.1f-1ubuntu2.4_amd64.deb ...
+Unpacking libssl1.1:amd64 (1.1.1f-1ubuntu2.4) ...
+Selecting previously unselected package openssl.
+Preparing to unpack .../01-openssl_1.1.1f-1ubuntu2.4_amd64.deb ...
+Unpacking openssl (1.1.1f-1ubuntu2.4) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../02-ca-certificates_20210119~20.04.1_all.deb ...
+Unpacking ca-certificates (20210119~20.04.1) ...
+Selecting previously unselected package tzdata.
+Preparing to unpack .../03-tzdata_2021a-0ubuntu0.20.04_all.deb ...
+Unpacking tzdata (2021a-0ubuntu0.20.04) ...
+Selecting previously unselected package libicu66:amd64.
+Preparing to unpack .../04-libicu66_66.1-2ubuntu2_amd64.deb ...
+Unpacking libicu66:amd64 (66.1-2ubuntu2) ...
+Selecting previously unselected package libuv1:amd64.
+Preparing to unpack .../05-libuv1_1.34.2-1ubuntu1.3_amd64.deb ...
+Unpacking libuv1:amd64 (1.34.2-1ubuntu1.3) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../06-libnghttp2-14_1.40.0-1build1_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.40.0-1build1) ...
+Selecting previously unselected package libc-ares2:amd64.
+Preparing to unpack .../07-libc-ares2_1.15.0-1build1_amd64.deb ...
+Unpacking libc-ares2:amd64 (1.15.0-1build1) ...
+Selecting previously unselected package libnode64:amd64.
+Preparing to unpack .../08-libnode64_10.19.0~dfsg-3ubuntu1_amd64.deb ...
+Unpacking libnode64:amd64 (10.19.0~dfsg-3ubuntu1) ...
+Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../09-nodejs-doc_10.19.0~dfsg-3ubuntu1_all.deb ...
+Unpacking nodejs-doc (10.19.0~dfsg-3ubuntu1) ...
+Selecting previously unselected package nodejs.
+Preparing to unpack .../10-nodejs_10.19.0~dfsg-3ubuntu1_amd64.deb ...
+Unpacking nodejs (10.19.0~dfsg-3ubuntu1) ...
+Setting up libssl1.1:amd64 (1.1.1f-1ubuntu2.4) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based front
+end cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Te
+rm::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/
+perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /
+usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/l
+ocal/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Deb
+conf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up libnghttp2-14:amd64 (1.40.0-1build1) ...
+Setting up libc-ares2:amd64 (1.15.0-1build1) ...
+Setting up tzdata (2021a-0ubuntu0.20.04) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based front
+end cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Te
+rm::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/
+perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /
+usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/l
+ocal/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Deb
+conf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Configuring tzdata
+------------------
+
+Please select the geographic area in which you live. Subsequent configuration
+questions will narrow this down by presenting a list of cities, representing
+the time zones in which they are located.
+
+  1. Africa      4. Australia  7. Atlantic  10. Pacific  13. Etc
+  2. America     5. Arctic     8. Europe    11. SystemV
+  3. Antarctica  6. Asia       9. Indian    12. US
+Geographic area: 8
+
+Please select the city or region corresponding to your time zone.
+
+  1. Amsterdam    17. Guernsey     33. Monaco      49. Stockholm
+  2. Andorra      18. Helsinki     34. Moscow      50. Tallinn
+  3. Astrakhan    19. Isle_of_Man  35. Nicosia     51. Tirane
+  4. Athens       20. Istanbul     36. Oslo        52. Tiraspol
+  5. Belfast      21. Jersey       37. Paris       53. Ulyanovsk
+  6. Belgrade     22. Kaliningrad  38. Podgorica   54. Uzhgorod
+  7. Berlin       23. Kiev         39. Prague      55. Vaduz
+  8. Bratislava   24. Kirov        40. Riga        56. Vatican
+  9. Brussels     25. Lisbon       41. Rome        57. Vienna
+  10. Bucharest   26. Ljubljana    42. Samara      58. Vilnius
+  11. Budapest    27. London       43. San_Marino  59. Volgograd
+  12. Busingen    28. Luxembourg   44. Sarajevo    60. Warsaw
+  13. Chisinau    29. Madrid       45. Saratov     61. Zagreb
+  14. Copenhagen  30. Malta        46. Simferopol  62. Zaporozhye
+  15. Dublin      31. Mariehamn    47. Skopje      63. Zurich
+  16. Gibraltar   32. Minsk        48. Sofia
+Time zone: 24
+
+
+Current default time zone: 'Europe/Kirov'
+Local time is now:      Fri Jul 23 02:27:28 +03 2021.
+Universal Time is now:  Thu Jul 22 23:27:28 UTC 2021.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up libuv1:amd64 (1.34.2-1ubuntu1.3) ...
+Setting up nodejs-doc (10.19.0~dfsg-3ubuntu1) ...
+Setting up openssl (1.1.1f-1ubuntu2.4) ...
+Setting up libicu66:amd64 (66.1-2ubuntu2) ...
+Setting up ca-certificates (20210119~20.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based front
+end cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Te
+rm::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/
+perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /
+usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/l
+ocal/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Deb
+conf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+129 added, 0 removed; done.
+Setting up libnode64:amd64 (10.19.0~dfsg-3ubuntu1) ...
+Setting up nodejs (10.19.0~dfsg-3ubuntu1) ...
+update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto 
+mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/js.1.gz beca
+use associated file /usr/share/man/man1/nodejs.1.gz (of link group js) doesn't 
+exist
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Processing triggers for ca-certificates (20210119~20.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+root@40e2a7ce3f2e:/# node -v
+v10.19.0
+root@40e2a7ce3f2e:/# exit
+exit
+qww@qww-VirtualBox:~$ sudo docker ps
+[sudo] пароль для qww: 
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+qww@qww-VirtualBox:~$ sudo docker ps -a
+CONTAINER ID   IMAGE         COMMAND       CREATED             STATUS                         PORTS     NAMES
+40e2a7ce3f2e   ubuntu        "bash"        17 minutes ago      Exited (0) 20 seconds ago                zen_hermann
+323cb5650b5f   ubuntu        "/bin/bash"   27 minutes ago      Exited (127) 16 minutes ago              goofy_borg
+a292e2e93656   hello-world   "/hello"      About an hour ago   Exited (0) About an hour ago             elated_faraday
+qww@qww-VirtualBox:~$ sudo docker rm 40e2a7ce3f2e
+40e2a7ce3f2e
+qww@qww-VirtualBox:~$ sudo docker ps -a
+CONTAINER ID   IMAGE         COMMAND       CREATED             STATUS                         PORTS     NAMES
+323cb5650b5f   ubuntu        "/bin/bash"   36 minutes ago      Exited (127) 25 minutes ago              goofy_borg
+a292e2e93656   hello-world   "/hello"      About an hour ago   Exited (0) About an hour ago             elated_faraday
+qww@qww-VirtualBox:~$ sudo docker rm 323cb5650b5f 
+323cb5650b5f
+qww@qww-VirtualBox:~$ sudo docker ps -a
+CONTAINER ID   IMAGE         COMMAND    CREATED             STATUS                         PORTS     NAMES
+a292e2e93656   hello-world   "/hello"   About an hour ago   Exited (0) About an hour ago             elated_faraday
+qww@qww-VirtualBox:~$ sudo docker rm a292e2e93656
+a292e2e93656
+qww@qww-VirtualBox:~$ sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+qww@qww-VirtualBox:~$ sudo docker ps 
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+qww@qww-VirtualBox:~$ 
+
+#4
+qww@qww-VirtualBox:~$ cat > Dockerfile
+FROM ubuntu:latest
+MAINTAINER GB_student
+RUN apt-get update
+RUN apt-get install nginx -y
+RUN apt install php-fpm -y
+VOLUME "/var/www/html"
+EXPOSE 80
+CMD /usr/sbin/nginx -g "daemon off;"qww@qww-VirtualBox:~$ 
+qww@qww-VirtualBox:~$ sudo docker build -t php_nginx_image .
+''''
+''''
+perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/fileinfo.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/ffi.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/ftp.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/gettext.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/iconv.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/pdo.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/phar.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/posix.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/shmop.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/sockets.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/sysvmsg.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/sysvsem.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/sysvshm.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/tokenizer.ini with new version
+Setting up libreadline8:amd64 (8.0-4) ...
+Setting up php7.4-readline (7.4.3-4ubuntu2.5) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/readline.ini with new version
+Setting up gir1.2-glib-2.0:amd64 (1.64.1-1~ubuntu20.04.1) ...
+Setting up libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.3) ...
+Setting up php7.4-opcache (7.4.3-4ubuntu2.5) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/opcache.ini with new version
+Setting up libpython3.8-stdlib:amd64 (3.8.10-0ubuntu1~20.04) ...
+Setting up python3.8 (3.8.10-0ubuntu1~20.04) ...
+Setting up libpython3-stdlib:amd64 (3.8.2-0ubuntu2) ...
+Setting up php7.4-json (7.4.3-4ubuntu2.5) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/mods-available/json.ini with new version
+Setting up python3 (3.8.2-0ubuntu2) ...
+running python rtupdate hooks for python3.8...
+running python post-rtupdate hooks for python3.8...
+Setting up php7.4-cli (7.4.3-4ubuntu2.5) ...
+update-alternatives: using /usr/bin/php7.4 to provide /usr/bin/php (php) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/php.1.gz because associated file /usr/share/man/man1/php7.4.1.gz (of link group php) doesn't exist
+update-alternatives: using /usr/bin/phar7.4 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/phar.1.gz because associated file /usr/share/man/man1/phar7.4.1.gz (of link group phar) doesn't exist
+update-alternatives: using /usr/bin/phar.phar7.4 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/phar.phar.1.gz because associated file /usr/share/man/man1/phar.phar7.4.1.gz (of link group phar.phar) doesn't exist
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/cli/php.ini with new version
+Setting up python3-gi (3.36.0-1) ...
+Setting up python3-dbus (1.2.16-1build1) ...
+Setting up networkd-dispatcher (2.1-2~ubuntu20.04.1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/networkd-dispatcher.service → /lib/systemd/system/networkd-dispatcher.service.
+Setting up systemd-timesyncd (245.4-4ubuntu3.11) ...
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /lib/systemd/system/systemd-timesyncd.service.
+Setting up systemd (245.4-4ubuntu3.11) ...
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.resolve1.service → /lib/systemd/system/systemd-resolved.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/systemd-resolved.service → /lib/systemd/system/systemd-resolved.service.
+ln: failed to create symbolic link '/etc/resolv.conf': Device or resource busy
+Created symlink /etc/systemd/system/multi-user.target.wants/ondemand.service → /lib/systemd/system/ondemand.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /lib/systemd/system/systemd-pstore.service.
+Initializing machine ID from D-Bus machine ID.
+Setting up php7.4-fpm (7.4.3-4ubuntu2.5) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+
+Creating config file /etc/php/7.4/fpm/php.ini with new version
+Created symlink /etc/systemd/system/multi-user.target.wants/php7.4-fpm.service → /lib/systemd/system/php7.4-fpm.service.
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up php-fpm (2:7.4+75) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Processing triggers for php7.4-cli (7.4.3-4ubuntu2.5) ...
+Processing triggers for systemd (245.4-4ubuntu3.11) ...
+Processing triggers for php7.4-fpm (7.4.3-4ubuntu2.5) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of restart.
+Removing intermediate container 19270798450e
+ ---> 4de7cb5ca87f
+Step 6/8 : VOLUME "/var/www/html"
+ ---> Running in e3f4e84241e7
+Removing intermediate container e3f4e84241e7
+ ---> 4338b63dd5bf
+Step 7/8 : EXPOSE 80
+ ---> Running in 125d30c4a373
+Removing intermediate container 125d30c4a373
+ ---> 1e7fe9555417
+Step 8/8 : CMD /usr/sbin/nginx -g "daemon off;"
+ ---> Running in 116d03cdbf60
+Removing intermediate container 116d03cdbf60
+ ---> 1243a3c91fe1
+Successfully built 1243a3c91fe1
+Successfully tagged php_nginx_image:latest
+qww@qww-VirtualBox:~$ sudo docker images
+REPOSITORY        TAG       IMAGE ID       CREATED         SIZE
+php_nginx_image   latest    1243a3c91fe1   6 seconds ago   243MB
+nginx             latest    08b152afcfae   15 hours ago    133MB
+ubuntu            latest    c29284518f49   9 days ago      72.8MB
+hello-world       latest    d1165f221234   4 months ago    13.3kB
+qww@qww-VirtualBox:~$ 
+
+###
